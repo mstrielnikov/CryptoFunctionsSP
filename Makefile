@@ -7,7 +7,7 @@ BINDIR = bin
 
 SRC = $(wildcard $(SRCDIR)/*.c)
 OBJ = $(patsubst $(SRCDIR)/%.c, $(OBJDIR)/%.o, $(SRC))
-EXECUTABLE = $(BINDIR)/s_p_box_examples
+EXECUTABLE = $(BINDIR)/s_p_box
 
 all: directories $(EXECUTABLE)
 
